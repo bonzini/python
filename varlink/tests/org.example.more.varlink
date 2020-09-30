@@ -10,7 +10,7 @@ type State (
 )
 
 # Returns the same string
-method Ping(ping: string) -> (pong: string)
+method Ping(ping: ?string) -> (pong: ?string)
 
 # Dummy progress method
 # n: number of progress steps
